@@ -13,10 +13,9 @@ Contents:
 
 
 
-Indices and tables
+Navigation aids
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 
