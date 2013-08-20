@@ -9,7 +9,7 @@ Contents:
 
 
 Navigation aids
-==================
+===============
 
 * :ref:`genindex`
 * :ref:`search`
