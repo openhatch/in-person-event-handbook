@@ -108,6 +108,7 @@ Beyond this document
 
 * http://wiki.python.org/moin/LocalUserGroups is a place to list your group and learn more.
 * File issues against this document at https://github.com/paulproteus/python-user-group-guide/issues
+* If you want help with anything in here, email me: asheesh@asheesh.org
 
 
 Navigation aids
