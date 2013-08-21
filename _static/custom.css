@@ -1,3 +1,11 @@
+h1 {
+    padding-top: 0.1em;
+}
+
+h2 {
+    padding-top: 0.2em;
+}
+
 div.section {
-    padding-top: 0.3em;
+    padding-bottom: 0.3em;
 }
