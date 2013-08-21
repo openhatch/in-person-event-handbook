@@ -102,6 +102,13 @@ Finding sponsors
 
 A future version of this document will explain how to find corporate sponsors for your event.
 
+====================
+Beyond this document
+====================
+
+* http://wiki.python.org/moin/LocalUserGroups is a place to list your group and learn more.
+* File issues against this document at https://github.com/paulproteus/python-user-group-guide/issues
+
 
 Navigation aids
 ===============
