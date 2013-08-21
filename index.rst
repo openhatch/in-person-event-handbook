@@ -73,6 +73,58 @@ grew and grew.
     * Montreal Python (PyCon 2011 talk)
     * Why you should keep a strict time limit on lightning talks
 
+Project night
+=============
+
+Project nights are user group meetings where attendees come with their
+laptop computers and a desire to work on something
+Python-related. These are often the first thing that user groups add
+when they want to become more welcoming to newcomers. A true story:
+The Boston Python user group was so inclusive and welcoming that it
+inspired Boston.rb to run their first project night!
+
+I recommend you choose inclusive phrasing like "project night" rather
+than terms like "hack night," since I have seen people feel excluded
+by the term "hack."
+
+To make it as great as possible, prepare the following things before
+the event:
+
+* Inviting language on your event page to indicate all are welcome,
+  whether newcomers, experienced Python programmers, or something
+  else.
+* A collection of volunteers who are willing to spend the evening answering others' questions.
+* A landing page for newcomers with links to tested resources. You can base yours off this page: https://openhatch.org/wiki/Project_night
+* A food sponsor, if possible.
+
+Additionally, on the day of the event, when it starts, *set the tone*
+by getting everyone's attention and saying:
+
+    Hello, everyone! I'm *name*, organizer of this Python user group.
+
+    Thanks for coming to the project night. We have wifi here, and food
+    and drinks that you can take; thanks to *sponsor name* for making
+    that possible.
+
+    We're excited about having people of all experience levels in Python
+    here today, and to support them, we have a few people who are excited
+    about helping beginners. Can I get those people to stand up?
+
+    We've labeled a table as the "Beginner's corner," so if you
+    specially want mentorship today, go visit there and say hi to the
+    person next to you, and talk with one of the lovely people who
+    want to help you have a great time with Python.
+
+    I'll be here all evening, so if you need anything else, just ask me.
+    Thanks to all of you for coming!
+
+Setting the tone and helping people understand that they are not just
+present, but welcome, can make a huge difference.
+
+Sample project night web pages you can use:
+
+* `Boston Python August project night <http://www.meetup.com/bostonpython/events/120413472/>`_ sign-up and info page
+* `Montreal Python June project night <http://montrealpython.org/2013/06/python-project-night-vi/>`_ info page
 
 =====
 Money
