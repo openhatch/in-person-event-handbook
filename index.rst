@@ -114,6 +114,5 @@ Beyond this document
 Navigation aids
 ===============
 
-* :ref:`genindex`
 * :ref:`search`
 
