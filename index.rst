@@ -126,6 +126,12 @@ Sample project night web pages you can use:
 * `Boston Python August project night <http://www.meetup.com/bostonpython/events/120413472/>`_ sign-up and info page
 * `Montreal Python June project night <http://montrealpython.org/2013/06/python-project-night-vi/>`_ info page
 
+Discussions about organizing a Python Project Night:
+
+* `Discussion clarifying the ideas <https://mail.python.org/pipermail/chicago/2013-August/011435.html>`_ on the ChiPy (Chicago Python) list.
+* `List of action items for the event <https://mail.python.org/pipermail/chicago/2013-August/011451.html>`_ on the ChiPy list.
+
+
 =====
 Money
 =====
