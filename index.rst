@@ -40,8 +40,11 @@ ChiPy in Chicago, also host Meetup.com pages where they cross-announce
 their events so they can reach people who use that site.
 
 If you do use Meetup.com, the Python Software Foundation will
-reimburse you for your yearly Meetup.com account fees. See a sample
-grant application (forthcoming) on how to get that.
+reimburse you for your yearly Meetup.com account fees. Just send an
+email to the PSF requesting that money; see the :ref:`sample grant
+application <sample-grants-meetup>` for what to say when requesting
+it. Also note that it looks good for me (Asheesh), the author of this
+document, when you request that money. So please do!
 
 ..
     General tips on finding attendees
@@ -174,3 +177,53 @@ Navigation aids
 
 * :ref:`search`
 
+===================================
+Appendix: Sample grant applications
+===================================
+
+.. _sample-grants-meetup:
+
+Requesting Meetup.com fees
+==========================
+
+*From*: Your Name <yourname@example.com>
+
+*To*: psf@python.org, asheesh@asheesh.org
+
+*Subject*: Grant Proposal: $144 for a year of meetup fees for YourUserGroupNamehere
+
+***---body below this line---***
+
+Grant objective: Pay for Meetup.com fees for YourUserGroupNameHere user group.
+
+    NOTE: If you are a group hosted both on Meetup and elsewhere, you
+    can also add a sentence like this. "Chicago's main PUG is ChiPy,
+    which does not use Meetup, but by creating this account, we can
+    mirror ChiPy events to Meetup.com's active userbase."
+
+I am CC:ing Asheesh Laroia, who encouraged me to submit this
+application.
+
+Grant size: $144 total
+
+Grant beneficiaries: ChiPy is an active Python user group, with
+lightning talks and other meetings monthly.
+
+    NOTE: You should adjust the above text, and then remove this
+    "NOTE"! A short sentence is fine; no need to write an essay.
+
+Preferred method of funds delivery: a paypal deposit to:
+
+YourNameHere
+
+YourPayPalEmailAddressHere
+
+    NOTE: If you prefer a check in the mail, say that instead. PayPal
+    and check-in-the-mail are the two primary methods of PSF
+    reimbursement.
+
+Sincerely,
+
+YourNameHere.
+
+    NOTE: that's it!
