@@ -4,10 +4,6 @@ To contribute, you can submit a pull request, file an issue in the issue tracker
 
 Text in this document may be shared under the terms of Creative Commons Zero <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-======================================
-Installation
-======================================
-
 For Developers
 ======================
 
