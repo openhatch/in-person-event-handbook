@@ -89,10 +89,9 @@ Depending on the size and complexity of your project, this can be a pretty big u
 
 For example:
 	
-  A description of the top-level structure of the OpenHatch project can be found at `Project Overview`_.  A description of the structure of OH-Mainline (the repository that runs our website) can be found `here`_.
+  A description of the top-level structure of the OpenHatch project can be found at `Project Overview`_.  A description of the structure of OH-Mainline (the repository that runs our website) can be found `here <https://github.com/openhatch/oh-mainline/blob/master/LAYOUT>`_.
 
 .. _Project Overview: http://openhatch.readthedocs.org/en/latest/getting_started/project_overview.html
-.. _here: https://github.com/openhatch/oh-mainline/blob/master/LAYOUT
 
 How to set up a local (“development”) environment
 +++++++++++++++++++++++++++++++++++++++++++++++++
@@ -123,11 +122,11 @@ Here are common elements of setting up a development environment you’ll want y
 
 For example:
 
-  You can see OpenHatch’s version of this information in our `Installation Guide`_.  Instructions on how to contribute changes can be found in `handling patches`_, which is linked to in the installation guide.  Instructions for testing changes can be found in the documentation for different changes one might make (for instance, `Documentation changes`_.)
+  You can see OpenHatch’s version of this information in our `Installation Guide`_.  Instructions on how to contribute changes can be found in `handling patches`_, which is linked to in the installation guide.  Instructions for testing changes can be found in the documentation for different changes one might make (for instance, `documentation changes`_.)
 
 .. _Installation Guide: http://openhatch.readthedocs.org/en/latest/getting_started/installation.html
-.. _handing patches: http://openhatch.readthedocs.org/en/latest/getting_started/handling_patches.html
-.. _Documentation changes: http://openhatch.readthedocs.org/en/latest/getting_started/documentation.html
+.. _handling patches: http://openhatch.readthedocs.org/en/latest/getting_started/handling_patches.html
+.. _documentation changes: http://openhatch.readthedocs.org/en/latest/getting_started/documentation.html
 	
 Contributing changes and feedback
 +++++++++++++++++++++++++++++++++
@@ -136,20 +135,18 @@ How do contributors contribute their changes to the project?  Do they submit a p
 
 For example:
 
-  OpenHatch’s guide to submitting changes can be found `here`_. [Note from author: this too out of date to link.]
-
-.. _here: https://openhatch.org/bugs/issue904
+  OpenHatch’s guide to submitting changes can be found `here <https://openhatch.org/bugs/issue904>`_. [Note from author: this too out of date to link.]
 
 It’s also useful for people to know how they can give feedback/report bugs to the project.  If your project doesn’t have an issue tracker, consider creating one.
 
 For example:
 
-  Issues with the Open Source Comes to Campus project can be reported 'here'_.
+  Issues with the Open Source Comes to Campus project can be reported `here <https://github.com/openhatch/open-source-comes-to-campus/issues?direction=desc&sort=created&state=open>`_.
   
-  Most other issues with OpenHatch can be reported 'here'_.
+  Most other issues with OpenHatch can be reported `here <http://openhatch.org/bugs/>`_.
 
-.. _here: https://github.com/openhatch/open-source-comes-to-campus/issues?direction=desc&sort=created&state=open
-.. _here: http://openhatch.org/bugs/
+Verify your documentation
++++++++++++++++++++++++++++++++++
 
 Verify that this documentation is complete/effective by testing on individuals who haven’t used or contributed to your project before.
 
@@ -159,58 +156,62 @@ Make sure that any problems which arise during verification are added to the doc
 
 For example:
 
-  Development environment instructions tested successfully on Ubuntu 12.04 (on 
-2013-10-03), Mac OS X 10.8 (on 2013-10-01) and Windows XP (in Jan 
-2005).
+  Development environment instructions tested successfully on Ubuntu 12.04 (on 2013-10-03), Mac OS X 10.8 (on 2013-10-01) and Windows XP (in Jan 2005).
 
-  You can see OpenHatch’s version of this here.
+  You can see OpenHatch’s version of this `here <http://openhatch.readthedocs.org/en/latest/getting_started/installation.html>`_.
 
-3.  Defining tasks
+Defining tasks
+==============
 
 Let’s return to the event goals we talked about in the first section.  For each of these goals, we should be able to break down the steps that need to be taken to reach them into discrete tasks.  These tasks should include a “plain english” summary as well as information about where to make the changes (for instance, which files or functions to alter).  We recommend including a list of needed skills (e.g. “design skills”, “basic Python”, “English fluency”, “familiarity with the command line”) and tools (e.g. “Mac development environment”).  It’s also useful to include an estimate of how much time the task will take, to label some tasks as higher or lower priority, and to mark where one task is dependent on another.  
 
-We recommend using a wiki or similar planning document to keep track of tasks.  OpenHatch has a task-tracker that we use for our events - you are welcome to fork it and customize it for your project/event, although you might want to wait as we’ll be making some big improvements soon.  Something as simple as an etherpad should also be just fine.
+We recommend using a wiki or similar planning document to keep track of tasks.  OpenHatch has `a task-tracker`_ that we use for our events - you are welcome to fork it and customize it for your project/event, although you might want to wait as we’ll be making some big improvements soon.  Something as simple as an etherpad should also be just fine.
+
+.. _a task-tracker: https://github.com/openhatch/new-mini-tasks
 
 For example:
 
-Reach goal:  Address the added labels.  (Verify bugs, test patches, assign features, etc.)
-Task 1:  Verify Bugs
-Skills/tools needed:  Strong English language skills, ideally familiarity with virtual machines to test on multiple OSs.
-Estimated time: ~15 minutes set up, ~20 min per bug (high variance)
-Get started:  <Download the development environment> and make sure you can run the project.  Make sure you have an account on <the issue tracker> and are familiar with how to add comments or change labels.
-For each bug:  Try to reproduce the bug.  Record the results in a comment, including your operating system type and version #.  If possible, test on multiple browsers.  If there are recent comments covering all three major OSs, add label to bug “ready_for_maintainer_review”.
+  - Reach goal:  Address the added labels.  (Verify bugs, test patches, assign features, etc.)
+
+    - Task 1:  Verify Bugs
+
+      - Skills/tools needed:  Strong English language skills, ideally familiarity with virtual machines to test on multiple OSs.
+
+      - Estimated time: ~15 minutes set up, ~20 min per bug (high variance)
+
+      - Get started:  <Download the development environment> and make sure you can run the project.  Make sure you have an account on <the issue tracker> and are familiar with how to add comments or change labels.
+
+      - For each bug:  Try to reproduce the bug.  Record the results in a comment, including your operating system type and version #.  If possible, test on multiple browsers.  If there are recent comments covering all three major OSs, add label to bug “ready_for_maintainer_review”.
 
 Once you’ve created this list you can use it when recruiting/assigning participants to your project.  (If event organizers have the bandwidth to recommend participants to projects based on needed skills, they will be very glad for this information.)
 
-4.  Follow-up
+Follow-up
+=========
 
 Contributors may not be able to finish the tasks they are working on during the event.  Or they may want to continue participating in the project by working on other tasks.  Thinking ahead about how you will follow up on the event makes it easier to exchange information with participants and plan the direction of your project.
 
 We recommend asking each participant to answer the following questions about the tasks they worked on.  Giving them this list at the start of the event will help them document what they’re doing as they go along.
 
-For each task you worked on, please answer:
-What task did you work on?
-Please briefly document your workflow.  What steps did you take, in what order, and why?
-Where can I find the work you did at the event?  This includes code, documentation, mock ups, and other materials.
-If you created any accounts for the project, please list the site, account name, and password.
-What obstacles did you encounter when working on this task?  Do you have any feedback for me to make the process better for future contributors?
-Would you like to stay involved in this project?  If so, in what capacity?
+  - For each task you worked on, please answer:
+
+    - What task did you work on?
+
+    - Please briefly document your workflow.  What steps did you take, in what order, and why?
+
+    - Where can I find the work you did at the event?  This includes code, documentation, mock ups, and other materials.
+
+    - If you created any accounts for the project, please list the site, account name, and password.
+
+    - What obstacles did you encounter when working on this task?  Do you have any feedback for me to make the process better for future contributors?
+
+    - Would you like to stay involved in this project?  If so, in what capacity?
 
 If there is strong enthusiasm for continuing to work, we recommend planning a follow up meeting at the event.  If you’re all local, try setting a date 2-3 weeks after the event for you and your team to meet at a local coffee shop, coworking space, or project night.  If you’re remote, set a date to meet on IRC or a google hangout.  At the very least, get email addresses and/or other contact info from anyone interested in following up, and contact them within 48 hours thanking them for their help at the event.
 
-5.  Checklists
+Checklists
+==========
 
 That’s a lot of advice!  To help you keep track of each step, we’ve created two checklists for you.  The detailed version includes all of the advice above.  The quick and dirty checklist includes the elements of the above document which we think are most important.  These represent the minimum needed for a project to be included at an OpenHatch-run event.  We highly recommend you follow the full checklist.
-
-
-
-
-
-
-
-
-
-
 
 DETAILED CHECKLIST
 
@@ -239,19 +240,6 @@ Create a resource such as a wiki for displaying and tracking the tasks
 Follow Up
 Create/modify a list of questions to ask participants to capture their knowledge/feedback
 Gather contact information from participants interested in following up
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 QUICK AND DIRTY CHECKLIST
 
