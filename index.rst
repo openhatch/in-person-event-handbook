@@ -1,12 +1,8 @@
-================================================================
-Preparing For New Contributors: A guide for open source projects
-================================================================
+:pagetitle:`The In-Person Event Handbook`
+:pagesubtitle:`getting your open source project ready for new contributors`
 
-Note:  This guide is in beta.  Feel free to share widely.  Have feedback?  Please leave a comment.  Also: OpenHatch is in the middle of restructuring/improving our documentation.  Consequently, some of the links provided here will change.  You’re welcome to copy or print this document but if you do so, some of the links will be invalid.
-
-The Open Source Project Guide: Hackathon/Sprint version
-
-by Shauna Gordon-McKeon of OpenHatch
+.. class:: pagetitle
+.. class:: pagesubtitle
 
 In order to get the most out of a workshop, hackathon or sprint, it’s important to plan ahead and identify goals and tasks for helpers, as well as possible stumbling blocks.  We’ve created the following guide to help you plan.  We’ve used our own project - OpenHatch - as an example below.
 
@@ -208,60 +204,7 @@ We recommend asking each participant to answer the following questions about the
 
 If there is strong enthusiasm for continuing to work, we recommend planning a follow up meeting at the event.  If you’re all local, try setting a date 2-3 weeks after the event for you and your team to meet at a local coffee shop, coworking space, or project night.  If you’re remote, set a date to meet on IRC or a google hangout.  At the very least, get email addresses and/or other contact info from anyone interested in following up, and contact them within 48 hours thanking them for their help at the event.
 
-Checklists
-==========
 
-That’s a lot of advice!  To help you keep track of each step, we’ve created two checklists for you.  The detailed version includes all of the advice above.  The quick and dirty checklist includes the elements of the above document which we think are most important.  These represent the minimum needed for a project to be included at an OpenHatch-run event.  We highly recommend you follow the full checklist.
-
-DETAILED CHECKLIST
-
-Defining Goals
-Write one paragraph description of overall project goal.
-Define “base” and “reach” goals for this particular event.
-Project Setup
-In README, document:
-How to contact maintainers/project community
-Basic project structure
-How to set up the development environment
-Preparing the computer/installing dependencies
-Downloading the project
-Viewing/testing changes
-How to contribute changes
-Verify that your documentation is clear, ideally for Mac, Windows & Linux individually
-Defining Tasks
-Define tasks for contributors to work on, including for each:
-a brief summary
-where to make changes
-skills and tools needed
-optionally: estimate of time the task will take
-optionally: priority of task
-optionally: dependencies
-Create a resource such as a wiki for displaying and tracking the tasks
-Follow Up
-Create/modify a list of questions to ask participants to capture their knowledge/feedback
-Gather contact information from participants interested in following up
-
-QUICK AND DIRTY CHECKLIST
-
-Defining Goals
-Write one paragraph description of overall project goal.
-Project Setup
-In README, document:
-How to contact maintainers/project community
-Basic project structure
-How to set up the development environment
-Preparing the computer/installing dependencies
-Downloading the project
-Viewing/testing changes
-How to contribute changes
-Verify that your documentation is clear for at least one of: Mac, Windows & Linux
-Defining Tasks
-Define tasks for contributors to work on, including for each:
-a brief summary
-where to make changes
-skills and tools needed
-Follow Up
-Provide your contact information for participants interested in following up
 
 
 
