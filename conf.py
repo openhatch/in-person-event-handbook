@@ -41,8 +41,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Python User Group Guide'
-copyright = u'2013, Asheesh Laroia'
+project = u'In-Person Event Handbook'
+copyright = u'2013, Shauna Gordon-McKeon'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -165,7 +165,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PythonUserGroupGuidedoc'
+htmlhelp_basename = 'InPersonEventHandbookdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -184,8 +184,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'PythonUserGroupGuide.tex', u'Python User Group Guide Documentation',
-   u'Asheesh Laroia', 'manual'),
+  ('index', 'InPersonEventHandbook.tex', u'In-Person Event Handbook Documentation',
+   u'Shauna Gordon-McKeon', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -214,8 +214,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'pythonusergroupguide', u'Python User Group Guide Documentation',
-     [u'Asheesh Laroia'], 1)
+    ('index', 'inpersoneventhandbook', u'In-Person Event Handbook Documentation',
+     [u'Shauna Gordon-McKeon'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -228,8 +228,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'PythonUserGroupGuide', u'Python User Group Guide Documentation',
-   u'Asheesh Laroia', 'PythonUserGroupGuide', 'One line description of project.',
+  ('index', 'InPersonEventHandbook', u'In-Person Event Handbook Documentation',
+   u'Shauna Gordon-McKeon', 'InPersonEventHandbook', 'One line description of project.',
    'Miscellaneous'),
 ]
 
