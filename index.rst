@@ -4,7 +4,9 @@
 .. class:: pagetitle
 .. class:: pagesubtitle
 
-In order to get the most out of a workshop, hackathon or sprint, it’s important to plan ahead and identify goals and tasks for helpers, as well as possible stumbling blocks.  We’ve created the following guide to help you plan.  We’ve used our own project - OpenHatch - as an example below.
+In order to get the most out of a workshop, hackathon or sprint, it’s important to plan ahead and identify goals and tasks for helpers, as well as possible stumbling blocks.  We’ve created the following guide to help you plan.  We’ve used our own project - the `OpenHatch.org <http://openhatch.org/>`_ web app - as an example below.
+
+
 
 .. contents:: In this guide
 
@@ -16,7 +18,7 @@ You want to be able to state clearly your goals for the event, as this gives you
 What is the overall goal of your project?  
 +++++++++++++++++++++++++++++++++++++++++
 
-You want a short (1 paragraph or less) answer to this question which you can use to entice potential contributors to your project.  Details are great, but at this point, you shouldn’t need to be too technical.
+You want a short (1 paragraph or less) answer to this question which you can use to entice potential contributors to your project.  Details are great, but at this point, you shouldn’t need to be too technical.  At many events, such as the PyCon sprints, you'll be asked to give a short summary in front of everyone.  Why not be prepared?
  	
 For example:
 
@@ -48,9 +50,9 @@ For example:
 Project setup
 =============
 
-In our experience, project setup is the single biggest barrier to participation.  We’ve seen (and run!) events where the majority of time spent by participants was on setting up their development environment and becoming acquainted with the project.  Documenting and improving the process beforehand can save everyone a lot of time and energy.  If you know that a part of your project will inevitably be time-consuming, make sure participants know to expect that.  Consider contacting participants ahead of time and trying to do some of the set-up asynchronously before the event.
+In our experience, project setup is the single biggest barrier to participation.  We’ve seen (and run!) events where participants spent most of their time just getting their development environment set up and becoming acquainted with the project.  If your goal is for newcomers to make contributions, figure out how long you think it *should* take to get set up.  Then find a friend or two who's not familiar with your project to test and see how long it *really* takes.  (You can also find someone to help you do this in `#openhatch <http://openhatch.readthedocs.org/en/latest/contributor/chat_on_irc.html>`_.)
 
-(If you’re a very new project, read the rest of this section with an eye for what you’ll want to document as you build.)
+Documenting and improving the process beforehand can save everyone a lot of time and energy.  If you know that a part of your project will inevitably be time-consuming, make sure participants know to expect that.
 
 All of the information below should be documented in a README at the top level of your source repository.  Other places put the info include a “Want to contribute?” section of your project website, and/or you can include a link to the README in the signature of your mailing list or in the status bar of your IRC channel.
 
@@ -77,11 +79,9 @@ For example:
 The project’s structure
 +++++++++++++++++++++++
 
-Describe the basic structure of your project.  What are the biggest pieces and where are they located?  How do those pieces interact?  Then break each piece down.  
+Describe the basic structure of your project.  What are the biggest pieces and where are they located?  How do those pieces interact?  Then break each piece down.  You don’t need to talk about every file or subdirectory of your project, but you don’t want to assume that what a script does, or how the files in a directory interact, or what language a part of your project is in is obvious to a newcomer.  Making those assumptions turns getting access to you into the bottleneck resource for working on your project.
 
-You don’t need to talk about every file or subdirectory of your project, but you don’t want to assume that what a script does, or how the files in a directory interact, or what language a part of your project is in is obvious to a newcomer.  Making those assumptions turns getting access to you into the bottleneck resource for working on your project.
-
-Depending on the size and complexity of your project, this can be a pretty big undertaking.  At OpenHatch, we’re still working on getting the full structure completely documented.  We recommend doing a “top level” explanation of your project’s structure, and then going into detail about areas that people commonly work on (or are likely to work on at sprints or hackathons.)
+Depending on the size and complexity of your project, this can be a pretty big undertaking.  At OpenHatch, we’re still working on getting the full structure completely documented.  We recommend doing a “top level” explanation of your project’s structure, and then going into detail about areas that people commonly work on (or are likely to work on at sprints or hackathons.)  If you use other frameworks or libraries, you can save yourself some time by linking to their documentation and tutorials.
 
 For example:
 	
@@ -104,7 +104,7 @@ Here are common elements of setting up a development environment you’ll want y
 
   - If contributors need to set up a virtual environment, access a virtual machine, or download a specific development kit, give them instructions on how to do so.
 
-  - List any dependencies needed to run your project, and how to install them.
+  - List any dependencies needed to run your project, and how to install them.  If there are good installation guides for those dependencies, link to them.
 
 - Downloading the source
 
@@ -133,7 +133,9 @@ For example:
 
   OpenHatch’s guide to submitting changes can be found `here <https://openhatch.org/bugs/issue904>`_. [Note from author: this too out of date to link.]
 
-It’s also useful for people to know how they can give feedback/report bugs to the project.  If your project doesn’t have an issue tracker, consider creating one.
+It’s also useful for people to know how they can give feedback/report bugs to the project.  If your project doesn’t have an issue tracker, consider creating one.  On Github, all repositories come with issue trackers (though you may need to enable it by going to *Settings* and then *Features*.)  There are many other `issue tracking systems <http://en.wikipedia.org/wiki/Comparison_of_issue_tracking_systems>`_.
+
+If your project is small, you may not want or need an issue tracking system.  That's fine.  What's key is that contributors know how to give you feedback.
 
 For example:
 
@@ -141,12 +143,14 @@ For example:
   
   Most other issues with OpenHatch can be reported `here <http://openhatch.org/bugs/>`_.
 
-Verify your documentation
-+++++++++++++++++++++++++++++++++
+Tools like issue trackers are very useful for asynchronous communication.  This may not be the best fit for an in person event.  If you want to change things up - for instance, by having attendees ping you in IRC with links to new issue URLs, so they don't fall between the cracks - make sure to tell them that!
 
-Verify that this documentation is complete/effective by testing on individuals who haven’t used or contributed to your project before.
+Verify your documentation 
++++++++++++++++++++++++++
 
-Find at least one person for each operating system to read your documentation and attempt to install, make and test changes, and contribute the changes to the project.  (These can be simple, fake changes or, if your tester is willing, actual tasks.)
+Verify that this documentation is complete/effective by testing on individuals who haven’t used or contributed to your project before.  Find at least one person for each operating system to read your documentation and attempt to install, make and test changes, and contribute the changes to the project.  (These can be simple, fake changes or, if your tester is willing, actual tasks.)  Make sure your testers have similar skills/experience as the kinds of newcomers you expect to have at your event.
+
+If you're having trouble finding people to help, try the `#openhatch IRC channel <http://openhatch.readthedocs.org/en/latest/contributor/chat_on_irc.html>`_.
 
 Make sure that any problems which arise during verification are added to the documentation.  Once the documentation has been verified, and a line to the top of your guide which states what was verified and when.
 
@@ -156,14 +160,23 @@ For example:
 
   You can see OpenHatch’s version of this `here <http://openhatch.readthedocs.org/en/latest/getting_started/installation.html>`_.
 
-Defining tasks
-==============
+Ideally, you should verify that installing, making and testing changes, and contributing changes all work.  If you only have time for one, we recommend verifying installation.  In our experience, that's where the majority of problems arise.
+
+Automated testing
+:::::::::::::::::
+
+(Insert paragraph here.)
+
+Defining tasks for attendees
+============================
 
 Let’s return to the event goals we talked about in the first section.  For each of these goals, we should be able to break down the steps that need to be taken to reach them into discrete tasks.  These tasks should include a “plain english” summary as well as information about where to make the changes (for instance, which files or functions to alter).  We recommend including a list of needed skills (e.g. “design skills”, “basic Python”, “English fluency”, “familiarity with the command line”) and tools (e.g. “Mac development environment”).  It’s also useful to include an estimate of how much time the task will take, to label some tasks as higher or lower priority, and to mark where one task is dependent on another.  
 
-We recommend using a wiki or similar planning document to keep track of tasks.  OpenHatch has `a task-tracker`_ that we use for our events - you are welcome to fork it and customize it for your project/event, although you might want to wait as we’ll be making some big improvements soon.  Something as simple as an etherpad should also be just fine.
+(This may seem like a lot of work, but it should help your attendees quickly and easily find tasks that are suited for them.  Since one of the main goals of in-person events is to give attendees a positive experience, we think it's worth it.)
 
-.. _a task-tracker: https://github.com/openhatch/new-mini-tasks
+We recommend using a wiki or similar planning document to keep track of tasks.  OpenHatch has `a task browser`_ that we use for our events - you are welcome to fork it and customize it for your project/event, although you might want to wait as we’ll be making some big improvements soon.  Something as simple as an etherpad should also be just fine.  (See `here <https://etherpad.mozilla.org/task-browser-template>`_ for a template and a service you can use.)
+
+.. _a task browser: https://github.com/openhatch/new-mini-tasks
 
 For example:
 
@@ -179,14 +192,14 @@ For example:
 
       - For each bug:  Try to reproduce the bug.  Record the results in a comment, including your operating system type and version #.  If possible, test on multiple browsers.  If there are recent comments covering all three major OSs, add label to bug “ready_for_maintainer_review”.
 
-Once you’ve created this list you can use it when recruiting/assigning participants to your project.  (If event organizers have the bandwidth to recommend participants to projects based on needed skills, they will be very glad for this information.)
+Once you’ve created this list you can use it when recruiting/assigning participants to your project.  If event organizers have the bandwidth to recommend participants to projects based on needed skills, they will be very glad for this information.
 
 Follow-up
 =========
 
-Contributors may not be able to finish the tasks they are working on during the event.  Or they may want to continue participating in the project by working on other tasks.  Thinking ahead about how you will follow up on the event makes it easier to exchange information with participants and plan the direction of your project.
+Contributors may not be able to finish the tasks they are working on during the event, or they may want to continue participating in the project by working on other tasks.  Thinking ahead about how you will follow up on the event makes it easier to exchange information with participants and plan the direction of your project.
 
-We recommend asking each participant to answer the following questions about the tasks they worked on.  Giving them this list at the start of the event will help them document what they’re doing as they go along.
+We recommend asking each participant to answer the following questions about the tasks they worked on.  Giving them this list at the start of the event will help them document what they’re doing as they go along.  You can print out the list, email it to attendees, make a web form - whatever suits you.
 
   - For each task you worked on, please answer:
 
@@ -202,10 +215,16 @@ We recommend asking each participant to answer the following questions about the
 
     - Would you like to stay involved in this project?  If so, in what capacity?
 
-If there is strong enthusiasm for continuing to work, we recommend planning a follow up meeting at the event.  If you’re all local, try setting a date 2-3 weeks after the event for you and your team to meet at a local coffee shop, coworking space, or project night.  If you’re remote, set a date to meet on IRC or a google hangout.  At the very least, get email addresses and/or other contact info from anyone interested in following up, and contact them within 48 hours thanking them for their help at the event.
+If there is enthusiasm for continuing the work, make sure you stay in touch!  We suggest gathering emails from interested attendees and contacting them within 48 hours of the event.  In the email, thank them for their help and include information on how to stay part of the community via, for instance, IRC or mailing lists.
 
+We also recommend planning a follow up meeting at the event.  If you’re all local, try setting a date after the event for you and your team to meet at a local coffee shop, coworking space, or project night.  If you’re remote, set a date to meet on IRC or a google hangout.  2-3 weeks is a good time frame, though it will depend on how busy you and your new contributors are.
 
+Checklists
+==========
 
+That’s a lot of advice!  To help you keep track of each step, we’ve created two checklists for you.  The detailed version includes all of the advice above.  The quick and dirty checklist includes the elements of the above document which we think are most important.  We recommend starting with the quick and dirty checklist.  Once you've completed that successfully, you can go back and do the extra steps if you have the time and energy.
 
+To get an easily printable/saveable version of the two checklists, go `here <>`_.
 
+<Add checklists!>
 
