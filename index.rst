@@ -1,11 +1,11 @@
-:pagetitle:`The In-Person Event Handbook`
-:pagesubtitle:`getting your open source project ready for new contributors`
+============================
+The In-Person Event Handbook
+============================
 
-.. class:: pagetitle
-.. class:: pagesubtitle
+getting your open source project ready for new contributors
+###########################################################
 
 In order to get the most out of a workshop, hackathon or sprint, it’s important to plan ahead and identify goals and tasks for helpers, as well as possible stumbling blocks.  We’ve created the following guide to help you plan.  We’ve used our own project - the `OpenHatch.org <http://openhatch.org/>`_ web app - as an example below.
-
 
 
 .. contents:: In this guide
@@ -85,7 +85,7 @@ Depending on the size and complexity of your project, this can be a pretty big u
 
 For example:
 	
-  A description of the top-level structure of the OpenHatch project can be found at `Project Overview`_.  A description of the structure of OH-Mainline (the repository that runs our website) can be found `here <https://github.com/openhatch/oh-mainline/blob/master/LAYOUT>`_.
+  A description of the top-level structure of the OpenHatch project can be found at `Project Overview`_.  A description of the structure of OH-Mainline (the repository that runs our website) can be found `here <https://github.com/openhatch/oh-mainline/blob/master/LAYOUT>`__.
 
 .. _Project Overview: http://openhatch.readthedocs.org/en/latest/getting_started/project_overview.html
 
@@ -131,7 +131,7 @@ How do contributors contribute their changes to the project?  Do they submit a p
 
 For example:
 
-  OpenHatch’s guide to submitting changes can be found `here <https://openhatch.org/bugs/issue904>`_. [Note from author: this too out of date to link.]
+  OpenHatch’s guide to submitting changes can be found `here <https://openhatch.org/bugs/issue904>`__. [Note from author: this too out of date to link.]
 
 It’s also useful for people to know how they can give feedback/report bugs to the project.  If your project doesn’t have an issue tracker, consider creating one.  On Github, all repositories come with issue trackers (though you may need to enable it by going to *Settings* and then *Features*.)  There are many other `issue tracking systems <http://en.wikipedia.org/wiki/Comparison_of_issue_tracking_systems>`_.
 
@@ -139,9 +139,9 @@ If your project is small, you may not want or need an issue tracking system.  Th
 
 For example:
 
-  Issues with the Open Source Comes to Campus project can be reported `here <https://github.com/openhatch/open-source-comes-to-campus/issues?direction=desc&sort=created&state=open>`_.
+  Issues with the Open Source Comes to Campus project can be reported `here <https://github.com/openhatch/open-source-comes-to-campus/issues?direction=desc&sort=created&state=open>`__.
   
-  Most other issues with OpenHatch can be reported `here <http://openhatch.org/bugs/>`_.
+  Most other issues with OpenHatch can be reported `here <http://openhatch.org/bugs/>`__.
 
 Tools like issue trackers are very useful for asynchronous communication.  This may not be the best fit for an in person event.  If you want to change things up - for instance, by having attendees ping you in IRC with links to new issue URLs, so they don't fall between the cracks - make sure to tell them that!
 
@@ -158,7 +158,7 @@ For example:
 
   Development environment instructions tested successfully on Ubuntu 12.04 (on 2013-10-03), Mac OS X 10.8 (on 2013-10-01) and Windows XP (in Jan 2005).
 
-  You can see OpenHatch’s version of this `here <http://openhatch.readthedocs.org/en/latest/getting_started/installation.html>`_.
+  You can see OpenHatch’s version of this `here <http://openhatch.readthedocs.org/en/latest/getting_started/installation.html>`__.
 
 Ideally, you should verify that installing, making and testing changes, and contributing changes all work.  If you only have time for one, we recommend verifying installation.  In our experience, that's where the majority of problems arise.
 
@@ -174,7 +174,7 @@ Let’s return to the event goals we talked about in the first section.  For eac
 
 (This may seem like a lot of work, but it should help your attendees quickly and easily find tasks that are suited for them.  Since one of the main goals of in-person events is to give attendees a positive experience, we think it's worth it.)
 
-We recommend using a wiki or similar planning document to keep track of tasks.  OpenHatch has `a task browser`_ that we use for our events - you are welcome to fork it and customize it for your project/event, although you might want to wait as we’ll be making some big improvements soon.  Something as simple as an etherpad should also be just fine.  (See `here <https://etherpad.mozilla.org/task-browser-template>`_ for a template and a service you can use.)
+We recommend using a wiki or similar planning document to keep track of tasks.  OpenHatch has `a task browser`_ that we use for our events - you are welcome to fork it and customize it for your project/event, although you might want to wait as we’ll be making some big improvements soon.  Something as simple as an etherpad should also be just fine.  (See `here <https://etherpad.mozilla.org/task-browser-template>`__ for a template and a service you can use.)
 
 .. _a task browser: https://github.com/openhatch/new-mini-tasks
 
@@ -224,7 +224,7 @@ Checklists
 
 That’s a lot of advice!  To help you keep track of each step, we’ve created two checklists for you.  The detailed version includes all of the advice above.  The quick and dirty checklist includes the elements of the above document which we think are most important.  We recommend starting with the quick and dirty checklist.  Once you've completed that successfully, you can go back and do the extra steps if you have the time and energy.
 
-To get an easily printable/saveable version of the two checklists, go `here <>`_.
+To get an easily printable/saveable version of the two checklists, go here.
 
 <Add checklists!>
 
