@@ -1,11 +1,28 @@
+/*
+ * Vertical Rhythm Overrides
+ */
+
 h1 {
-    padding-top: 0.1em;
+	font-size: 2.618em;
+	line-height: 1.19em;
+    /*margin-top: 0.1em;*/
 }
 
 h2 {
-    padding-top: 0.2em;
+	font-size: 1.618em;
+	line-height: 1.2;
+    /*margin-top: 0.2em;*/
+	margin-bottom: 0.382em;
 }
 
-div.section {
-    padding-bottom: 0.3em;
+h3 {
+
+	font-size: 1.2em; /*1.375em;*/
+	line-height: 1.4em;
+	margin-bottom: 0.6em;
 }
+
+/*
+ * Spacing
+ */
+
