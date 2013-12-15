@@ -1,11 +1,70 @@
+/*
+ * Vertical Rhythm Overrides
+ */
+
 h1 {
-    padding-top: 0.1em;
+	font-size: 2.618em;
+	line-height: 1.19em;
+    /*margin-top: 0.1em;*/
 }
 
 h2 {
-    padding-top: 0.2em;
+	font-size: 1.618em;
+	line-height: 1.2;
+    /*margin-top: 0.2em;*/
+	margin-bottom: 0.382em;
 }
 
-div.section {
-    padding-bottom: 0.3em;
+h3 {
+
+	font-size: 1.2em; /*1.375em;*/
+	line-height: 1.4em;
+	margin-bottom: 0.6em;
+}
+
+/*
+ * Table of Contents Nav
+ */
+.contents.topic {
+	background-color: #F5F5F5;
+	padding: 1em;
+	width: 300px;
+	float: left;
+	border: 0;
+}
+.contents.topic ul {
+	list-style: none;
+	padding-left: 20px;
+}
+.contents.topic > ul {
+	padding-left: 0;
+}
+
+#getting-your-open-source-project-ready-for-new-contributors > .section {
+	margin-left: 320px;
+}
+
+
+/*
+ * Example Block Styling
+ * 
+ * <blockquote class="oh-example">
+ * 		Here's an example email!
+ * </blockquote>
+ */
+blockquote {
+	background-color: #F3F3F3;
+	border-left: 3px solid #D5D5D5;
+	margin: 1em 0;
+	padding: .7em 1.5em 1em;
+}
+
+blockquote:before {
+	content: 'Example';
+	text-transform: uppercase;
+	font-size: 0.9em;
+	color: #666; /* Fallback font color for non-rgba browsers */
+	color: rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	line-height: 2em;
 }
