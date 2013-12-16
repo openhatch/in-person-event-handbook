@@ -10,6 +10,7 @@ In order to get the most out of a workshop, hackathon or sprint, it’s importan
 
 .. contents:: In this guide
    :class: bs-sidenav affix
+   :local: 
 
 Defining goals
 ==============
