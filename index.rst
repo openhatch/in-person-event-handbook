@@ -9,7 +9,7 @@ It seems like every day there's another workshop, hackathon or sprint, where ope
 
 We’ve created the following guide to help open source projects get ready for events.  We’ve used our own project - the `OpenHatch.org <http://openhatch.org/>`_ web app - as an example below.  At the bottom of the page, you can find `Checklists`_.  These condense the advice given in this handbook, and can help you track your progress as you prepare your project.
 
-This handbook is `open source <http://creativecommons.org/licenses/by/2.0/>`_.  Many thanks to our `Contributors`_.  (`You can contribute, too! <https://github.com/openhatch/in-person-event-handbook/blob/master/README.rst>`_)
+This handbook is `open source <http://creativecommons.org/licenses/by/3.0/us/>`_.  Many thanks to our `Contributors`_.  (`You can contribute, too! <https://github.com/openhatch/in-person-event-handbook/blob/master/README.rst>`_)
 
 .. contents:: In this guide
    :class: bs-sidenav affix
