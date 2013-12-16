@@ -5,7 +5,7 @@ The In-Person Event Handbook
 getting your open source project ready for new contributors
 ###########################################################
 
-It seems like every day there's another workshop, hackathon or sprint, where open source projects are invited to work with new contributors.  At `OpenHatch <http://openhatch.org/>`_, we've run plenty of these events ourselves!  We've found that to get the most out of an event, it's important to plan ahead.  Explaing your goals, identifying appropriate tasks, and testing your project setup, are all vital to making good progress - and having a good time.  These changes have greatly improved our experiences, and we think they're worth the (significant) effort.
+It seems like every day there's another workshop, hackathon or sprint, where open source projects are invited to work with new contributors.  At `OpenHatch <http://openhatch.org/>`_, we've run plenty of these events ourselves!  We've found that to get the most out of an event, it's important to plan ahead.  Explaining your goals, identifying appropriate tasks, and testing your project setup, are all vital to making good progress - and having a good time.  These changes have greatly improved our experiences, and we think they're worth the (significant) effort.
 
 We’ve created the following guide to help open source projects get ready for events.  We’ve used our own project - the `OpenHatch.org <http://openhatch.org/>`_ web app - as an example below.  At the bottom of the page, you can find `Checklists`_.  These condense the advice given in this handbook, and can help you track your progress as you prepare your project.
 
