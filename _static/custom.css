@@ -10,8 +10,8 @@ h1 {
 
 h2 {
 	font-size: 1.618em;
-	line-height: 1.2;
-    /*margin-top: 0.2em;*/
+	line-height: 1.2; 
+        margin-top: 0.1em; 
 	margin-bottom: 0.382em;
 }
 

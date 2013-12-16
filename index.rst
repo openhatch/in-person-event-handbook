@@ -5,7 +5,7 @@ The In-Person Event Handbook
 getting your open source project ready for new contributors
 ###########################################################
 
-It seems like every day there's another workshop, hackathon or sprint, where open source projects are invited to work with new contributors.  At OpenHatch, we've run plenty of these events ourselves!  We've found that to get the most out of an event, it's important to plan ahead.  Explaing your goals, identifying appropriate tasks, and testing your project setup, are all vital to making good progress - and having a good time.  These changes have greatly improved our experiences, and we think they're worth the (significant) effort.
+It seems like every day there's another workshop, hackathon or sprint, where open source projects are invited to work with new contributors.  At `OpenHatch <http://openhatch.org/>`_, we've run plenty of these events ourselves!  We've found that to get the most out of an event, it's important to plan ahead.  Explaing your goals, identifying appropriate tasks, and testing your project setup, are all vital to making good progress - and having a good time.  These changes have greatly improved our experiences, and we think they're worth the (significant) effort.
 
 We’ve created the following guide to help open source projects get ready for events.  We’ve used our own project - the `OpenHatch.org <http://openhatch.org/>`_ web app - as an example below.  At the bottom of the page, you can find `Checklists`_.  These condense the advice given in this handbook, and can help you track your progress as you prepare your project.
 
@@ -115,10 +115,9 @@ Here are common elements of setting up a development environment you’ll want y
 
 Installation will often differ depending on the operating system of the contributor.  You will probably need to create separate instructions in various parts of your guide for Windows, Mac and Linux users.  If you only want to support development on a single operating system, make sure that is clear to users, ideally in the top-level documentation.
 
-   You can see OpenHatch’s version of this information in our `Installation Guide`_.  Instructions on how to contribute changes can be found in `handling patches`_, which is linked to in the installation guide.  (Note from author: this is `out of date <https://openhatch.org/bugs/issue904>`_.)  Instructions for testing changes can be found in the documentation for different changes one might make (for instance, `documentation changes`_.)
+   You can see OpenHatch’s version of this information in our `Installation Guide`_.  General instructions for testing changes can be found `here <http://openhatch.readthedocs.org/en/latest/getting_started/handling_patches.html#test-your-changes>`__.  Specific tasks may have additional documentation (for instance, `documentation changes`_.)
 
 .. _Installation Guide: http://openhatch.readthedocs.org/en/latest/getting_started/installation.html
-.. _handling patches: http://openhatch.readthedocs.org/en/latest/getting_started/handling_patches.html
 .. _documentation changes: http://openhatch.readthedocs.org/en/latest/getting_started/documentation.html
 	
 Contributing changes and feedback
@@ -126,7 +125,7 @@ Contributing changes and feedback
 
 How do contributors contribute their changes to the project?  Do they submit a pull request via Github?  Do they generate a patch and attach it to an issue in an issue tracker?  Make sure this information is explicitly provided.
 
-   OpenHatch’s guide to submitting changes can be found `here <http://openhatch.readthedocs.org/en/latest/getting_started/merging_patches.html>`__.  (Note from author: this is `out of date <https://openhatch.org/bugs/issue904>`_.)
+   OpenHatch’s guide to submitting changes can be found `here <http://openhatch.readthedocs.org/en/latest/getting_started/handling_patches.html>`__.
 
 It’s also useful for people to know how they can give feedback/report bugs to the project.  If your project doesn’t have an issue tracker, consider creating one.  On Github, all repositories come with issue trackers (though you may need to enable it by going to *Settings* and then *Features*.)  There are many other `issue tracking systems <http://en.wikipedia.org/wiki/Comparison_of_issue_tracking_systems>`_.
 
@@ -230,7 +229,7 @@ Checklists
 
 That’s a lot of advice!  To help you keep track of each step, we’ve created two checklists for you.  The detailed version includes all of the advice above.  The quick and dirty checklist includes the elements of the above document which we think are most important.  We recommend starting with the quick and dirty checklist.  Once you've completed that successfully, you can go back and do the extra steps if you have the time and energy.
 
-To view and/or print the checklists, go `here <https://github.com/openhatch/in-person-event-handbook/checklists.pdf>`__.
+To view and/or print the checklists, go `here <https://github.com/openhatch/in-person-event-handbook/blob/master/checklists.pdf>`__.
 
 Acknowledgements
 ================
