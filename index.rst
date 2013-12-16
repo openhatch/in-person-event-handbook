@@ -5,8 +5,11 @@ The In-Person Event Handbook
 getting your open source project ready for new contributors
 ###########################################################
 
-In order to get the most out of a workshop, hackathon or sprint, it’s important to plan ahead and identify goals and tasks for helpers, as well as possible stumbling blocks.  We’ve created the following guide to help you plan.  We’ve used our own project - the `OpenHatch.org <http://openhatch.org/>`_ web app - as an example below.
+It seems like every day there's another workshop, hackathon or sprint, where open source projects are invited to work with new contributors.  At OpenHatch, we've run plenty of these events ourselves!  We've found that to get the most out of an event, it's important to plan ahead.  Identifying goals and tasks, testing the project setup, and ensuring good communication are all vital to making good progress - and having a good time.  Making these changes has greatly improved our events.
 
+We’ve created the following guide to help open source projects get ready for events.  We’ve used our own project - the `OpenHatch.org <http://openhatch.org/>`_ web app - as an example below.  At the bottom of the page, you can find `Checklists`_.  These condense the advice given in this handbook, and can help you track your progress as you prepare your project.
+
+This handbook is `open source <http://creativecommons.org/licenses/by/2.0/>`_.  Many thanks to our `Contributors`_.  (`You can contribute, too! <https://github.com/openhatch/in-person-event-handbook/blob/master/README.rst>`_)
 
 .. contents:: In this guide
    :class: bs-sidenav affix
@@ -21,8 +24,6 @@ What is the overall goal of your project?
 +++++++++++++++++++++++++++++++++++++++++
 
 You want a short (1 paragraph or less) answer to this question which you can use to entice potential contributors to your project.  Details are great, but at this point, you shouldn’t need to be too technical.  At many events, such as the PyCon sprints, you'll be asked to give a short summary in front of everyone.  Why not be prepared?
- 	
-For example:
 
    OpenHatch’s goal is to make the free software/open source community more welcoming to newcomers.  To do this, we provide curricula and logistical support for running “Intro to Open Source” workshops, a website with open source tools, “training missions” and a volunteer opportunity finder, and several other projects in progress.
 
@@ -35,8 +36,6 @@ It’s useful to phrase these in terms of “Base” and “Reach” goals.  Hav
 
 In general, it’s better to have too many goals than too few, but make sure you prioritize them.  When you get to the task-breakdown part of this guide, focus on doing a thorough job with each individual goal before moving on to the next one.
 
-For example:
-
    - Make a new training mission
 
      - Base goal: Pick a skill to create a new training mission around, and design what the mission will look like.  Create a mock-up of the mission.
@@ -45,9 +44,9 @@ For example:
 
    - Clean out issue tracker
 
-     - Base goal:  Go through tracker and label issues by what type of “cleaning” they need (Does a bug need to be verified?  Does a patch need to be tested?  Does the feature need to be attached to a milestone?)
+     - Base goal:  Go through tracker and label issues by what type of “cleaning” they need.  Does a bug need to be verified?  Does a patch need to be tested?  Does the feature request need to be attached to a milestone?
 
-     - Reach goal:  Address the added labels.  (Verify bugs, test patches, assign features, etc.)
+     - Reach goal:  Use the labels as a guide to "clean" each issue.  Verify bugs, test patches, etc.
 	
 Project setup
 =============
@@ -131,9 +130,7 @@ Contributing changes and feedback
 
 How do contributors contribute their changes to the project?  Do they submit a pull request via Github?  Do they generate a patch and attach it to an issue in an issue tracker?  Make sure this information is explicitly provided.
 
-For example:
-
-  OpenHatch’s guide to submitting changes can be found `here <https://openhatch.org/bugs/issue904>`__. [Note from author: this too out of date to link.]
+  OpenHatch’s guide to submitting changes can be found `here <http://openhatch.readthedocs.org/en/latest/getting_started/merging_patches.html>`__.  (Note from author: this is `terribly out of date <https://openhatch.org/bugs/issue904>`_.)
 
 It’s also useful for people to know how they can give feedback/report bugs to the project.  If your project doesn’t have an issue tracker, consider creating one.  On Github, all repositories come with issue trackers (though you may need to enable it by going to *Settings* and then *Features*.)  There are many other `issue tracking systems <http://en.wikipedia.org/wiki/Comparison_of_issue_tracking_systems>`_.
 
@@ -164,11 +161,6 @@ For example:
 
 Ideally, you should verify that installing, making and testing changes, and contributing changes all work.  If you only have time for one, we recommend verifying installation.  In our experience, that's where the majority of problems arise.
 
-Automated testing
-:::::::::::::::::
-
-(Insert paragraph here.)
-
 Defining tasks for attendees
 ============================
 
@@ -180,19 +172,39 @@ We recommend using a wiki or similar planning document to keep track of tasks.  
 
 .. _a task browser: https://github.com/openhatch/new-mini-tasks
 
-For example:
+  - Base goal:  Go through tracker and label issues by what type of “cleaning” they need.  Does a bug need to be verified?  Does a patch need to be tested?  Does the feature request need to be attached to a milestone?
 
-  - Reach goal:  Address the added labels.  (Verify bugs, test patches, assign features, etc.)
+    - Task 1:  Label issues
+
+      - Skills/tools needed:  Moderate English language skills, familiarity with concepts of verification, testing, milestones.
+
+      - Estimated time:  ~20 minutes per issue
+
+      - Get started:  Familiarize yourself with the issue tracker and how it displays information.  (See this documentation.)  Request administrative access so you can add labels to the tracker.
+
+      - For each issue:  Read the thread for each issue and identify where in the process of addressing the issue the community is.  If there is an unverified bug, add the label "Unverified".  If there is an untested patch, add the label "Untested patch".  If there's a feature request with no associated milestone, add the label "Needs milestone".
+
+  - Reach goal:  Use the labels as a guide to "clean" each issue.  Verify bugs, test patches, etc.
 
     - Task 1:  Verify Bugs
 
-      - Skills/tools needed:  Strong English language skills, ideally familiarity with virtual machines to test on multiple OSs.
+      - Skills/tools needed:  Moderate English language skills, ideally familiarity with virtual machines to test on multiple OSs.
 
-      - Estimated time: ~15 minutes set up, ~20 min per bug (high variance)
+      - Estimated time: ~15 minutes set up, ~20 minutes per bug (high variance)
 
-      - Get started:  <Download the development environment> and make sure you can run the project.  Make sure you have an account on <the issue tracker> and are familiar with how to add comments or change labels.
+      - Get started:  Download the development environment and make sure you can run the project.  Make sure you have an account on <the issue tracker> and are familiar with how to add comments or change labels.
 
       - For each bug:  Try to reproduce the bug.  Record the results in a comment, including your operating system type and version #.  If possible, test on multiple browsers.  If there are recent comments covering all three major OSs, add label to bug “ready_for_maintainer_review”.
+
+    - Task 2:  Test Patches
+
+      - Skills/tools needed:  Moderate English language skills, familiarity with Git branching, fetching and merging (or willingness to learn!)
+
+      - Estimated time: ~15 minutes to set up, ~5 minutes per patch
+
+      - Get started:  Download the development environment and make sure you can run the project.  Make sure you have an account on the issue tracker and are familiar with how to add comments or change labels.
+
+      - For each patch:  Read the commentary on the issue, pull request and patch.  Make sure you understand the expected behavior of the patch.  Apply the changes in the patch to your local copy (see this guide for doing so) and see if the intended changes are made.  Update the issue with the results of your test.
 
 Once you’ve created this list you can use it when recruiting/assigning participants to your project.  If event organizers have the bandwidth to recommend participants to projects based on needed skills, they will be very glad for this information.
 
@@ -230,3 +242,11 @@ To get an easily printable/saveable version of the two checklists, go here.
 
 <Add checklists!>
 
+Acknowledgements
+================
+
+Further Resources
++++++++++++++++++
+
+Contributors
+++++++++++++
