@@ -2,7 +2,7 @@ This is a guide for open source projects looking to prepare for an event such as
 
 To contribute, you can submit a pull request, file an issue in the issue tracker, or email the main author.
 
-This document is licensed <a href="http://creativecommons.org/licenses/by/3.0/us/">CC BY</a>.
+This document is licensed `CC BY <a href="http://creativecommons.org/licenses/by/3.0/us/>`_.
 
 For Developers
 ======================
