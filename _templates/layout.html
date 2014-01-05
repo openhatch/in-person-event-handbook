@@ -3,3 +3,11 @@
 
 {# Custom CSS overrides #}
 {% set bootswatch_css_custom = ['_static/custom.css'] %}
+
+{# I'm using a suggested type vcs-browse for human-readable repo summary. #}
+{% block linktags %}
+    <link rel="profile" href="http://joeyh.name/rfc/rel-vcs/" title="VCS link profile" />
+    <link rel="vcs-git" href="https://github.com/openhatch/in-person-event-handbook.git" title="Handbook git repository" />
+    <link rel="vcs-svn" href="https://github.com/openhatch/in-person-event-handbook" title="Handbook SVN repository" />
+    <link rel="vcs-browse" href="https://github.com/openhatch/in-person-event-handbook" title="Handbook GitHub page" />
+{% endblock %}
