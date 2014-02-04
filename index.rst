@@ -32,7 +32,7 @@ What do you want to accomplish at this event?
 
 Think about what, specifically, you’d like to get done at this event.  You can break these down by elements of your project, if you have more than one.  It should be clear how these event goals contribute to the overall goal of your project.  At the same time, these are not “tasks” - it should be necessary to break these goals down further in order to accomplish them.
 
-It’s useful to phrase these in terms of “Base” and “Reach” goals.  Having modest base goals gives you something to celebrate at the end of the event, while adding reach goals lets you plan for the exciting scenario of having a large and/or effective team that’s able to accomplish a ton.
+It’s useful to phrase these in terms of “Base” and “Stretch” goals.  Having modest base goals gives you something to celebrate at the end of the event, while adding stretch goals lets you plan for the exciting scenario of having a large and/or effective team that’s able to accomplish a ton.
 
 In general, it’s better to have too many goals than too few, but make sure you prioritize them.  When you get to the task-breakdown part of this guide, focus on doing a thorough job with each individual goal before moving on to the next one.
 
@@ -40,13 +40,13 @@ In general, it’s better to have too many goals than too few, but make sure you
 
      - Base goal: Pick a skill to create a new training mission around, and design what the mission will look like.  Create a mock-up of the mission.
 
-     - Reach goal: Implement the mock-up, and user test it on volunteers from the event.
+     - Stretch goal: Implement the mock-up, and user test it on volunteers from the event.
 
    - Clean out issue tracker
 
      - Base goal:  Go through tracker and label issues by what type of “cleaning” they need.  Does a bug need to be verified?  Does a patch need to be tested?  Does the feature request need to be attached to a milestone?
 
-     - Reach goal:  Use the labels as a guide to "clean" each issue.  Verify bugs, test patches, etc.
+     - Stretch goal:  Use the labels as a guide to "clean" each issue.  Verify bugs, test patches, etc.
 	
 Project setup
 =============
@@ -183,7 +183,7 @@ To figure out how many tasks to prepare, we recommend using the length of the ev
 
       - For each issue:  Read the thread for each issue and identify where in the process of addressing the issue the community is.  If there is an unverified bug, add the label "Unverified".  If there is an untested patch, add the label "Untested patch".  If there's a feature request with no associated milestone, add the label "Needs milestone".
 
-  - Reach goal:  Use the labels as a guide to "clean" each issue.  Verify bugs, test patches, etc.
+  - Stretch goal:  Use the labels as a guide to "clean" each issue.  Verify bugs, test patches, etc.
 
     - Task 1:  Verify Bugs
 
