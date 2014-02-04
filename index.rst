@@ -214,7 +214,7 @@ We recommend asking each participant to answer the following questions about the
 
     - Where can I find the work you did at the event?  This includes code, documentation, mock ups, and other materials.
 
-    - If you created any accounts for the project, please list the site, account name, and password.
+    - If you created any accounts for the project, please list the site and account name.  Make sure to store the password in your favorite password manager, or make sure I (or another maintainer) knows it.
 
     - What obstacles did you encounter when working on this task?  Do you have any feedback for me to make the process better for future contributors?
 
