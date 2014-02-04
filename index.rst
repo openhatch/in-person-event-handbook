@@ -51,11 +51,11 @@ In general, it’s better to have too many goals than too few, but make sure you
 Project setup
 =============
 
-In our experience, project setup is the single biggest barrier to participation.  We’ve seen (and run!) events where participants spent most of their time just getting their development environment set up and becoming acquainted with the project.  If your goal is for newcomers to make contributions, figure out how long you think it *should* take to get set up.  Then find a friend or two who's not familiar with your project to test and see how long it *really* takes.  You can also find someone to help you do this in `#openhatch <http://openhatch.readthedocs.org/en/latest/contributor/chat_on_irc.html>`_.
+In our experience, project setup is the single biggest barrier to participation.  We’ve seen (and run!) events where participants spent most of their time just getting their development environment set up and becoming acquainted with the project.  If your goal is for newcomers to make contributions, estimate how long you think it will take them to set your project up.  Then find a friend or two who's not familiar with your project to test and see how long it *really* takes.  You can also find someone to help you do this in `#openhatch <http://openhatch.readthedocs.org/en/latest/contributor/chat_on_irc.html>`_.
 
 Documenting and improving the process beforehand can save everyone a lot of time and energy.  If you know that a part of your project will inevitably be time-consuming, make sure participants know to expect that.
 
-All of the information below should be documented in a README at the top level of your source repository.  Other places put the info include a “Want to contribute?” section of your project website, and/or you can include a link to the README in the signature of your mailing list or in the status bar of your IRC channel.
+All of the information below should be documented in a README at the top level of your source repository.  Other places to put the info include a “Want to contribute?” section of your project website, and/or you can include a link to the README in the signature of your mailing list or in the status bar of your IRC channel.
 
 How to find the project’s community/maintainers
 +++++++++++++++++++++++++++++++++++++++++++++++
@@ -82,7 +82,7 @@ The project’s structure
 
 Describe the basic structure of your project.  What are the biggest pieces and where are they located?  How do those pieces interact?  Then break each piece down.  You don’t need to talk about every file or subdirectory of your project, but you don’t want to assume that what a script does, or how the files in a directory interact, or what language a part of your project is in is obvious to a newcomer.  Making those assumptions turns getting access to you into the bottleneck resource for working on your project.
 
-Depending on the size and complexity of your project, this can be a pretty big undertaking.  At OpenHatch, we’re still working on getting the full structure completely documented.  We recommend doing a “top level” explanation of your project’s structure, and then going into detail about areas that people commonly work on (or are likely to work on at sprints or hackathons.)  If you use other frameworks or libraries, you can save yourself some time by linking to their documentation and tutorials.
+Depending on the size and complexity of your project, this can be a pretty big undertaking.  At OpenHatch, we’re still working on getting the full structure completely documented.  We recommend doing a “top level” explanation of your project’s structure - enough detail to fill a half a page to a page.  When you have more time, you can go into more detail, starting with the areas that people commonly work on (or are likely to work on at sprints or hackathons.)  If you use other frameworks or libraries, you can save yourself some time by linking to their documentation and tutorials.
 	
   A description of the top-level structure of the OpenHatch project can be found at `Project Overview`_.  A description of the structure of OH-Mainline (the repository that runs our website) can be found `here <https://github.com/openhatch/oh-mainline/blob/master/LAYOUT>`__.
 
@@ -97,7 +97,7 @@ Here are common elements of setting up a development environment you’ll want y
 
 - Preparing their computer
 
-  - Make sure they’re familiar with their operating system’s tools, such as the terminal/command prompt.  
+  - Make sure they’re familiar with their operating system’s tools, such as the terminal/command prompt.  You can do this by linking to a tutorial and asking contributors to make sure they understand it.  There are usually great tutorials already out there - OpenHatch's command line tutorial can be found `here <https://openhatch.org/wiki/Open_Source_Comes_to_Campus/Curriculum/Laptop_setup#Goal_.232:_practice_navigating_from_the_command_line>`__.  
 
   - If contributors need to set up a virtual environment, access a virtual machine, or download a specific development kit, give them instructions on how to do so.
 
