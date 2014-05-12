@@ -125,7 +125,7 @@ Contributing changes and feedback
 
 How do contributors contribute their changes to the project?  Do they submit a pull request via Github?  Do they generate a patch and attach it to an issue in an issue tracker?  Make sure this information is explicitly provided.
 
-   OpenHatch’s guide to submitting changes can be found `here <http://openhatch.readthedocs.org/en/latest/getting_started/handling_patches.html>`__.
+   OpenHatch’s guide to submitting changes can be found `here <http://openhatch.readthedocs.org/en/latest/getting_started/handling_contributions.html>`__.
 
 It’s also useful for people to know how they can give feedback/report bugs to the project.  If your project doesn’t have an issue tracker, consider creating one.  On Github, all repositories come with issue trackers (though you may need to enable it by going to *Settings* and then *Features*.)  There are many other `issue tracking systems <http://en.wikipedia.org/wiki/Comparison_of_issue_tracking_systems>`_.
 
