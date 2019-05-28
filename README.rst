@@ -28,3 +28,12 @@ Once you've installed the dependencies, you can render the project by typing::
    make html
 
 You will find the rendered pages in *_build/html*.  A good place to start looking around is *index.html*.
+
+
+For Publisher aka Deployer
+==========================
+
+This repo contains the **source** of the website.
+
+We use Firebase Static Hosting to host the website. To deploy a new version, run
+`./deploy.sh`. It will guide you through the process.
